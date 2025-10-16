@@ -27,3 +27,7 @@ Packages/com.unity.package-manager.cache/
 *.pidb
 *.booproj
 *.userprefs
+
+# Visual Studio files
+.vs/
+.vsconfig
