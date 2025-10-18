@@ -1,15 +1,22 @@
 using UnityEngine;
 
-public class Collision : MonoBehaviour
+public class Delivery : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Ouch we collided!");
+        if(collision.gameObject.CompareTag("Customer"))
+        {
+            Debug.Log("Delivered!");
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("What did I just pass through?");
+        if(collision.CompareTag("Package"))
+        {
+            Debug.Log("Picked up package!");
+            Destroy(collision.gameObject);
+        }
     }
 
     /* the next 2 methods are not necessary here: */
