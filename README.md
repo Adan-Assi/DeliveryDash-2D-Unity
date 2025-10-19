@@ -65,19 +65,7 @@ Follow these steps to run the game locally:
 ![Delivery to Customer House](Media/delivery_scene.png)  
 *The ice cream truck delivering to a customer’s house, showing the delivery area design.*
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+> **Note:** The design is currently minimalistic and intended to evolve through future enhancements.
 
 ---
 
