@@ -46,8 +46,38 @@ Follow these steps to run the game locally:
 > ⚠️ Make sure you have the compatible Unity version installed (Unity 6 or the version used to create this project) to avoid errors when opening the project.
 
 ---
-### 🎥 Demo
-*(Future plan: Add a short GIF or YouTube gameplay video here)*
+
+### 🎥 Demo  
+
+#### 🚀 Booster and Pickup Showcase  
+![Booster and Ice Cream Pickup](Media/booster_pickup.png)  
+*The player vehicle (the ice cream truck), a collectible item (ice cream) next to the coffee for a Caffeine boost.*
+
+#### ✨ Pickup Effect  
+![Pickup Particle Effect](Media/pickup_effect.png)  
+*Particle system effect, triggered when picking up an ice cream.*
+
+#### ⚡ Booster Speedup & Collision Demo  
+[🎬 Watch Gameplay Video](Media/booster_collision_demo.mp4)  
+*Shows the speed boost when hitting a booster, followed by a collision that resets the speed.*
+
+#### 🏠 Delivery Scene  
+![Delivery to Customer House](Media/delivery_scene.png)  
+*The ice cream truck delivering to a customer’s house, showing the delivery area design.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
